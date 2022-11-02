@@ -1,0 +1,10 @@
+{
+    "name": "Spotify Auth Heroku",
+    "description": "Handles the access token exchange for Spotify callbacks to simplify workflow.",
+    "env": {
+        "CLIENT_ID": "2f829542ff1f4e84b19fbeed1564040e",
+        "CLIENT_SECRET": "2f829542ff1f4e84b19fbeed1564040e",
+        "CALLBACK_URL": "https://https://recommendo-apis.herokuapp.com/.herokuapp.com",
+        "REDIRECT_URL": "https://https://recommendo-apis.herokuapp.com/"
+    }
+}
