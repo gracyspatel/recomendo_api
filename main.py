@@ -8,6 +8,10 @@ import numpy as np
 
 from collections import defaultdict
 
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+
+
 app =  Flask(__name__)
 
 @app.route("/")
