@@ -1,7 +1,6 @@
 # Dependencies
 from flask import Flask, request, jsonify
 import traceback
-import joblib
 app =  Flask(__name__)
 
 @app.route("/")
