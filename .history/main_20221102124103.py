@@ -3,8 +3,8 @@ from flask import Flask, request, jsonify
 import joblib
 import traceback
 import pandas as pd
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
+# import spotipy
+# from spotipy.oauth2 import SpotifyClientCredentials
 from collections import defaultdict
 import numpy as np
 # from scipy.spatial.distance import cdist
