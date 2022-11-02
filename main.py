@@ -3,14 +3,15 @@ from flask import Flask, request, jsonify
 import joblib
 import traceback
 import pandas as pd
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
+# import spotipy
+# from spotipy.oauth2 import SpotifyClientCredentials
 from collections import defaultdict
 import numpy as np
 # from scipy.spatial.distance import cdist
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='2f829542ff1f4e84b19fbeed1564040e', client_secret='de618579836c40eabd682d8983d3fe3e'))
+# sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='2f829542ff1f4e84b19fbeed1564040e', client_secret='de618579836c40eabd682d8983d3fe3e'))
 
+sp = joblib.load("./Pickle/Songs/model_sp.pkl")
 
 number_cols = joblib.load("./Pickle/Songs/model_no_cols.pkl")
 
